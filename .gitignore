@@ -1,0 +1,17 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Downloaded model files (big; download_models.py fetches them again)
+models/*
+!models/.gitkeep
+
+# Your test photos and outputs (may contain people's faces - keep them private)
+samples/*
+!samples/.gitkeep
+*_annotated.jpg
+last_annotated.jpg
+
+# macOS
+.DS_Store

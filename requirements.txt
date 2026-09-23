@@ -1,0 +1,5 @@
+# Mac side of the N80 talking camera. Install with:  pip install -r requirements.txt
+ultralytics>=8.4      # YOLO object detection (brings PyTorch and OpenCV with it)
+mediapipe>=0.10.14    # face landmarks + expression scores
+opencv-python>=4.9    # camera, drawing, JPEG, YuNet face finder
+flask>=3.0            # the small web server the phone talks to
